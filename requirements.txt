@@ -1,0 +1,16 @@
+# Italikin - Requirements
+# Core dependencies (required)
+customtkinter>=5.2.0
+python-docx>=1.0.0
+
+# Optional: Drag & Drop support
+# tkinterdnd2>=0.3.0
+
+# Optional: MS Word COM engine (Windows only)
+# pywin32>=306
+
+# Build & Development
+pyinstaller>=6.0
+pytest>=7.0
+black>=23.0
+flake8>=6.0

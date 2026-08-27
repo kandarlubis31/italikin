@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "italikin"
+version = "1.0.0"
+description = "Aplikasi untuk memformat kata tertentu di dokumen Word (.docx) secara otomatis tanpa merusak layout"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Italikin Team"}
+]
+keywords = ["word", "docx", "format", "italic", "batch", "document"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Fonts",
+    "Topic :: Text Processing :: Markup",
+]
+
+dependencies = [
+    "customtkinter>=5.2.0",
+    "python-docx>=1.0.0",
+]
+
+[project.optional-dependencies]
+dnd = ["tkinterdnd2>=0.3.0"]
+com = ["pywin32>=306"]
+dev = [
+    "pyinstaller>=6.0",
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+]
+all = ["italikin[dnd,com,dev]"]
+
+[project.scripts]
+italikin = "italikin:main"
+
+[project.gui-scripts]
+italikin-gui = "italikin:main"
+
+[tool.setuptools]
+py-modules = ["italikin"]
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+
+[tool.flake8]
+max-line-length = 100
+exclude = [".git", "__pycache__", "build", "dist", "*.egg-info"]
