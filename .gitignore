@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Build
+build/
+dist/
+*.exe
+*.dll
+*.pyd
+*.pyz
+
+# PyInstaller
+*.manifest
+
+# Keep italikin.spec for PyInstaller builds
+!italikin.spec
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Local overrides
+local_settings.py
+
+# Italikin workspace (file copies during processing)
+italikin_workspace/
+settings.json
