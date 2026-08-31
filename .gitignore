@@ -75,3 +75,6 @@ local_settings.py
 # Italikin workspace (file copies during processing)
 italikin_workspace/
 settings.json
+
+# Test files (dev only)
+test_*.py
