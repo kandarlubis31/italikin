@@ -287,7 +287,6 @@ Gunakan AI untuk generate list kata target secara otomatis:
 ├── build.bat                # Build script untuk .exe
 ├── file_version_info.txt    # Version info untuk .exe
 ├── README.md                # Dokumentasi ini
-├── CONTEXT.md               # Context untuk AI agent
 ├── .gitignore               # Git ignore rules
 ├── .github/
 │   └── workflows/
