@@ -1,12 +1,12 @@
-# ⭐ Italikin v1.0.0
+# Italikin v1.0.0
 
-**Ubah format kata tertentu di dokumen Word — tanpa merusak layout ✨**
+**Ubah format kata tertentu di dokumen Word — tanpa merusak layout**
 
 Italikin adalah aplikasi desktop Python untuk memformat kata-kata target secara otomatis di dokumen Microsoft Word (.docx). Aplikasi ini mengubah format (italic, bold, underline, highlight, warna) pada kata tertentu tanpa merusak layout, gambar, atau formatting lain di dokumen.
 
 ---
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
 - **Deteksi Kata Target** — Case-insensitive di seluruh dokumen (termasuk tabel & tabel bersarang)
 - **Aman untuk Formatting** — Manipulasi di level run sehingga format asli (font-size, bold, warna, layout) tidak hilang
@@ -20,12 +20,12 @@ Italikin adalah aplikasi desktop Python untuk memformat kata-kata target secara 
 - **Keyboard Shortcuts** — 8 shortcuts untuk produktivitas
 - **Recent Files** — Track 5 file terakhir
 - **Save/Load Settings** — Pengaturan tersimpan otomatis
-- **Drag & Drop** — Seret file .docx/.txt langsung ke jendela aplikasi
+- **Drag & Drop** — Seret file.docx/.txt langsung ke jendela aplikasi
 - **GUI Modern** — CustomTkinter dengan Dark Mode
 
 ---
 
-## 📸 Tampilan Aplikasi
+## Tampilan Aplikasi
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐
@@ -58,7 +58,7 @@ Italikin adalah aplikasi desktop Python untuk memformat kata-kata target secara 
 
 ---
 
-## 🔬 Precision & Testing
+## Precision & Testing
 
 ### Word Boundary Matching
 
@@ -106,7 +106,7 @@ case_sensitive=ON:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Test Results (45/45 Passed ✅)
+### Test Results (45/45 Passed )
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -132,7 +132,7 @@ case_sensitive=ON:
 
 ---
 
-## 🚀 Instalasi
+## Instalasi
 
 ### Persyaratan
 
@@ -168,7 +168,7 @@ italikin
 
 ---
 
-## 📦 Build .exe (Executable)
+## Build .exe (Executable)
 
 ### Build Script
 
@@ -193,17 +193,17 @@ dist/
 ### Distribusi
 
 File `.exe` bisa didistribusikan tanpa perlu install Python:
-1. Build .exe dengan script di atas
+1. Build.exe dengan script di atas
 2. Copy folder `dist/Italikin` ke komputer client
 3. Jalankan `Italikin.exe`
 
 ---
 
-## 📖 Cara Penggunaan
+## Cara Penggunaan
 
 ### 1. Pilih Dokumen
 
-- Klik **📁 Pilih Dokumen** atau seret file .docx ke jendela aplikasi
+- Klik **Pilih Dokumen** atau seret file.docx ke jendela aplikasi
 - File akan di-copy ke workspace (original tetap aman)
 
 ### 2. Masukkan Kata Target
@@ -213,9 +213,9 @@ File `.exe` bisa didistribusikan tanpa perlu install Python:
 PT Maju Jaya, Sumber Daya Manusia, penting
 ```
 
-**Cara 2: Muat dari file .txt**
-- Buat file .txt berisi kata target (dipisahkan koma atau baris baru)
-- Klik **📋 Pilih Kata** atau seret file .txt ke jendela
+**Cara 2: Muat dari file.txt**
+- Buat file.txt berisi kata target (dipisahkan koma atau baris baru)
+- Klik **Pilih Kata** atau seret file.txt ke jendela
 
 ### 3. Atur Pengaturan
 
@@ -228,10 +228,10 @@ PT Maju Jaya, Sumber Daya Manusia, penting
 
 ### 4. Proses & Export
 
-1. Klik **✨ PROSES DOKUMEN ✨**
+1. Klik **PROSES DOKUMEN**
 2. Tunggu hingga selesai
 3. Pilih lokasi export di dialog yang muncul
-4. Klik **💾 Export** atau **📁 Buka Folder**
+4. Klik **Export** atau **Buka Folder**
 
 ### 5. Hasil
 
@@ -242,7 +242,7 @@ Output:   D:\Kerja\Kontrak_italik.docx (file baru)
 
 ---
 
-## 🤖 AI Workflow
+## AI Workflow
 
 Gunakan AI untuk generate list kata target secara otomatis:
 
@@ -271,11 +271,11 @@ Gunakan AI untuk generate list kata target secara otomatis:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-**Akses AI Assistant**: Menu 🛠️ Tools → 🤖 AI Assistant
+**Akses AI Assistant**: Menu Tools → AI Assistant
 
 ---
 
-## 📁 Struktur File
+## Struktur File
 
 ```
 .
@@ -298,11 +298,11 @@ Gunakan AI untuk generate list kata target secara otomatis:
 
 ---
 
-## 🛠️ Engine Comparison
+## Engine Comparison
 
 | Fitur | python-docx | MS Word COM |
 |-------|-------------|-------------|
-| **Kecepatan** | ⚡ Cepat | 🐢 Lambat |
+| **Kecepatan** |  Cepat |  Lambat |
 | **Tanpa MS Word** | ✅ Ya | ❌ Tidak |
 | **Badan Dokumen** | ✅ Ya | ✅ Ya |
 | **Tabel** | ✅ Ya | ✅ Ya |
@@ -313,7 +313,7 @@ Gunakan AI untuk generate list kata target secara otomatis:
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### File terkunci / PermissionError
 
@@ -341,7 +341,7 @@ Atau gunakan tombol Browse untuk memilih file.
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
@@ -356,13 +356,21 @@ Atau gunakan tombol Browse untuk memilih file.
 
 ---
 
-## 📄 Lisensi
+## English
+
+**Italikin** is a desktop app that reformats chosen words inside Microsoft Word documents (.docx) — italic, bold, underline, highlight, or a custom color — without damaging the layout, images, or existing formatting.
+
+It works at run level, so fonts, headings, tables, and nested tables stay intact, and the original file is copied before anything is touched. Two engines are available: python-docx for speed, or MS Word COM when headers and footers must be covered.
+
+---
+
+## Lisensi
 
 MIT License
 
 ---
 
-## 🔗 Links
+## Links
 
 - [GitHub Repository](https://github.com/kandarlubis31/italikin)
 - [Releases](https://github.com/kandarlubis31/italikin/releases)
@@ -374,4 +382,4 @@ MIT License
 
 ---
 
-Made with ❤️ by Italikin Team
+Made with by Italikin Team
